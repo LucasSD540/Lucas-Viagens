@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Viagens</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="section-title">Lucas Viagens</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-nav">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#destinos">Nossos destinos</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#promos">Promoções</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#fale-conosco">Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/airplane-3702676_1280.jpg" alt="Foto avião">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/airplane-g2d82ea7ed_1280.jpg" alt="Foto da asa do avião">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000" >
+                        <img src="images/beach-g14acfe397_1280.jpg" alt="Foto da praia">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000" >
+                        <img src="images/beach-g6a18ba029_1280.jpg" alt="Foto das rochas no mar">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000" >
+                        <img src="images/vineyards-ge51eb6c81_1280.jpg" alt="Rio no meio das montanhas">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/globe-gdd57daaaf_1280.jpg" class="d-block w-100 rounded" alt="Foto da empresa">
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="section-txt fw-bold sobre">Sobre <span class="text-colored">a agência</span></h2>
+                            <p class="section-p">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi sint delectus labore qui assumenda dolore sed quis perspiciatis libero eius, recusandae dolorem nulla. Sapiente quos officia ad sit quae in?
+                            </p>
+                            <h3 class="section-txt fw-bold">Nosso <span class="text-colored">objetivo</span></h3>
+                            <p class="section-p">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa veniam ipsum voluptates eveniet? Fugiat nostrum eligendi distinctio, a error voluptas assumenda nesciunt ut, aliquid dolorem nisi illum sint, totam voluptate.
+                            </p>
+                            <ul>
+                                <li class="section-txt">Objetivo 1</li>
+                                <li class="section-txt">Objetivo 2</li>
+                                <li class="section-txt">Objetivo 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="destinos">
+            <div class="container">
+                <div class="row pt-5">
+                    <h2 class="section-txt text-center pb-5 fw-bold">Nossos <span class="text-colored">destinos</span></h2>
+                    <div class="col-md-4">
+                        <img src="images/city-gbdec7b218_640.jpg" class="w-100 rounded" alt="Praia de São Paulo">
+                        <p class="section-p fs-4 fw-bold">
+                            São Paulo
+                        </p>
+                        <p class="section-p">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore deserunt nulla, eius voluptas, iste eligendi architecto, laborum debitis alias soluta cupiditate ut! Numquam facilis, repellendus consectetur omnis consequuntur itaque fuga.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/cathedral-g5cca9c369_640.jpg" class="w-100 rounded" alt="Catedral Brasília">
+                        <p class="section-p fs-4 fw-bold">
+                            Brasília
+                        </p>
+                        <p class="section-p">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore deserunt nulla, eius voluptas, iste eligendi architecto, laborum debitis alias soluta cupiditate ut! Numquam facilis, repellendus consectetur omnis consequuntur itaque fuga.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/rio-de-janeiro-ge5859f775_640.jpg" class="w-100 rounded" alt="Praia do Rio de Janeiro">
+                        <p class="section-p fs-4 fw-bold">
+                            Rio de Janeiro
+                        </p>
+                        <p class="section-p">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore deserunt nulla, eius voluptas, iste eligendi architecto, laborum debitis alias soluta cupiditate ut! Numquam facilis, repellendus consectetur omnis consequuntur itaque fuga.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="promos">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-colored text-center pt-5 pb-5 fw-bold">Promoções</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-promo">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sao-paulo" class="fw-bold text-start nav-link text-colored active">São Paulo - Brasília</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#brasilia" class="fw-bold text-start nav-link text-colored">Brasília - São Paulo</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#rio" class="fw-bold text-start nav-link text-colored mb-3">Rio de Janeiro - Brasília</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content mb-5">
+                            <div class="tab-pane active" id="sao-paulo">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="images/city-gbdec7b218_640.jpg" class="d-block w-100" alt="São Paulo">
+                                        <h5 class="section-txt">São Paulo</h5>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="images/cathedral-g5cca9c369_640.jpg" class="d-block w-100" alt="Brasília">
+                                        <h5 class="section-txt">Brasília</h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <h3 class="section-txt fs-4">De: R$ <s>500,00</s></h3>
+                                    <h3 class="section-txt"><span class="text-colored">Por: R$ 350,00</span></h3>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="brasilia">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="images/cathedral-g5cca9c369_640.jpg" class="d-block w-100" alt="Brasília">
+                                        <h5 class="section-txt">Brasília</h5>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="images/city-gbdec7b218_640.jpg" class="d-block w-100" alt="São Paulo">
+                                        <h5 class="section-txt">São Paulo</h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <h3 class="section-txt fs-4">De: R$ <s>520,00</s></h3>
+                                    <h3 class="section-txt"><span class="text-colored">Por: R$ 370,00</span></h3>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="rio">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="images/rio-de-janeiro-ge5859f775_640.jpg" class="d-block w-100" alt="Rio de Janeiro">
+                                        <h5 class="section-txt">Rio de Janeiro</h5>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="images/cathedral-g5cca9c369_640.jpg" class="d-block w-100" alt="Brasília">
+                                        <h5 class="section-txt">Brasília</h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <h3 class="section-txt fs-4">De: R$ <s>600,00</s></h3>
+                                    <h3 class="section-txt"><span class="text-colored">Por: R$ 450,00</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center fw-bold text-colored mt-5 mb-4">Fale Conosco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <form>
+                            <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                            <input type="text" id="nome" class="form-control mb-3">
+                            <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                            <input type="email" id="email" class="form-control mb-3">
+                            <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                            <input type="tel" id="telefone" class="form-control mb-3">
+                            <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                            <textarea class="form-control mb-3" id="mensagem"></textarea>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-txt fs-5">
+                                <i class="bi bi-chat-left-text-fill text-colored"></i>
+                                Redes Sociais
+                            </h3>
+                            <ul class="nav nav-pills ps-2">
+                                <li class="nav-item">
+                                    <i class="bi bi-facebook fs-4 text-colored"></i>
+                                </li>
+                                <li class="nav-item ps-2 pe-2">
+                                    <i class="bi bi-instagram fs-4 text-colored"></i>
+                                </li>
+                                <li class="nav-item">
+                                    <i class="bi bi-whatsapp fs-4 text-colored"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-5">
+                            <h3 class="section-txt fs-5">
+                                <i class="bi bi-cursor-fill text-colored"></i>
+                                Endereço
+                                <p>
+                                    Centro Comercial Bootstrap, Rua n⁰ 120 - Brasília - DF
+                                </p>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
